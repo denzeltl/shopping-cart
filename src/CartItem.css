@@ -1,0 +1,31 @@
+.CartItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.CartItem:last-child {
+    margin-bottom: 0;
+}
+.CartItem div {
+    width: 25%;
+}
+.CartItem div:nth-child(3) button {
+    width: 2rem;
+    height: 2rem;
+    background: rgb(243, 201, 201);
+    border: none;
+    border-radius: 0.2rem;
+}
+.CartItem div:nth-child(3) button:disabled {
+    background: rgb(235, 224, 224);
+}
+.CartItem div:nth-child(3) p {
+    margin: 0;
+    display: inline-block;
+    width: 2.5rem;
+    text-align: center;
+}
+.CartItem div:last-child {
+    width: 10rem;
+}
